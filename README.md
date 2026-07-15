@@ -28,6 +28,15 @@ A CLI tool that checks account status and remaining credit across multiple LLM p
 **🔧 Open Source Contributions**
 Enhanced [Jethro PMM](https://github.com/tbar0970/jethro-pmm) (church management software) by adding exact Person ID matching to CSV imports, resolving bulk update failures caused by legacy duplicate profiles.
 
+### 🔄 Recently Active
+_Auto-updated daily by [`update-profile.yml`](.github/workflows/update-profile.yml) — pulls my most recently pushed public repos via the GitHub API._
+
+<!-- RECENT-REPOS:START -->
+- **[asteroids](https://github.com/sevasek/asteroids)** — We're going to build a simple video game, based on the classic Asteroids. <sub>(updated 11 July 2026)</sub>
+- **[sermon-scraper](https://github.com/sevasek/sermon-scraper)** — _No description yet._ <sub>(updated 4 July 2026)</sub>
+- **[webflyx](https://github.com/sevasek/webflyx)** — _No description yet._ <sub>(updated 30 June 2026)</sub>
+<!-- RECENT-REPOS:END -->
+
 ### Skills & Technologies
 - **Core**: n8n (advanced workflows, sub-workflows, error handling), LLM agents & prompt engineering
 - **Infrastructure**: Docker, VPS (Ubuntu), Traefik, PostgreSQL, Playwright scraping
@@ -42,7 +51,7 @@ Enhanced [Jethro PMM](https://github.com/tbar0970/jethro-pmm) (church management
 
 ### 🚀 Roadmap & Future Releases
 
-- [ ] **Self-updating profile feed** — a scheduled GitHub Action that pulls my most recently pushed repos via the GitHub API and regenerates the "Selected Work" section automatically, so this page never goes stale again.
+- [x] **Self-updating profile feed** — a scheduled GitHub Action (`update-profile.yml`) pulls my most recently pushed repos via the GitHub API and regenerates the "Recently Active" section daily, so this page never goes stale again.
 - [ ] **Live credibility widgets** — embed GitHub stats/streak cards so visitors get a 30-second read on activity and consistency without leaving the page.
 - [ ] **Impact-first project cards** — extend each "Selected Work" entry with a one-line measurable outcome (e.g. hours saved, error rate reduced) instead of just a feature description.
 

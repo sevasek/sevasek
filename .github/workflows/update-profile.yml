@@ -1,0 +1,38 @@
+name: Update recently active repos
+
+on:
+  schedule:
+    # Daily at 22:00 UTC (08:00 AEST)
+    - cron: "0 22 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Regenerate recently active repos section
+        env:
+          GITHUB_USER: sevasek
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/update-recent-repos.js
+
+      - name: Commit changes if README updated
+        run: |
+          if git diff --quiet -- README.md; then
+            echo "No changes to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "chore: refresh recently active repos"
+          git push
