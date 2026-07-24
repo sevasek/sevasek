@@ -32,8 +32,8 @@ Enhanced [Jethro PMM](https://github.com/tbar0970/jethro-pmm) (church management
 _Auto-updated daily by [`update-profile.yml`](.github/workflows/update-profile.yml) — pulls my most recently pushed public repos via the GitHub API._
 
 <!-- RECENT-REPOS:START -->
-- **[asteroids](https://github.com/sevasek/asteroids)** — We're going to build a simple video game, based on the classic Asteroids. <sub>(updated 11 July 2026)</sub>
-- **[sermon-scraper](https://github.com/sevasek/sermon-scraper)** — _No description yet._ <sub>(updated 4 July 2026)</sub>
+- **[sermon-scraper](https://github.com/sevasek/sermon-scraper)** — _No description yet._ <sub>(updated 24 July 2026)</sub>
+- **[asteroids](https://github.com/sevasek/asteroids)** — We're going to build a simple video game, based on the classic Asteroids. <sub>(updated 24 July 2026)</sub>
 - **[webflyx](https://github.com/sevasek/webflyx)** — _No description yet._ <sub>(updated 30 June 2026)</sub>
 <!-- RECENT-REPOS:END -->
 
