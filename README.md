@@ -32,9 +32,9 @@ Enhanced [Jethro PMM](https://github.com/tbar0970/jethro-pmm) (church management
 _Auto-updated daily by [`update-profile.yml`](.github/workflows/update-profile.yml) — pulls my most recently pushed public repos via the GitHub API._
 
 <!-- RECENT-REPOS:START -->
-- **[sermon-scraper](https://github.com/sevasek/sermon-scraper)** — _No description yet._ <sub>(updated 4 Aug 2026)</sub>
-- **[asteroids](https://github.com/sevasek/asteroids)** — We're going to build a simple video game, based on the classic Asteroids. <sub>(updated 31 July 2026)</sub>
-- **[webflyx](https://github.com/sevasek/webflyx)** — _No description yet._ <sub>(updated 30 June 2026)</sub>
+- **[asteroids](https://github.com/sevasek/asteroids)** — Feature-rich Asteroids clone in Pygame with procedural music, particle effects, dynamic difficulty, replays, and a leaderboard <sub>(updated 6 Aug 2026)</sub>
+- **[sermon-scraper](https://github.com/sevasek/sermon-scraper)** — Finds, downloads, and transcribes EV Church sermons by Bible passage using Playwright scraping and OpenAI Whisper <sub>(updated 4 Aug 2026)</sub>
+- **[webflyx](https://github.com/sevasek/webflyx)** — A fictional streaming-service catalogue used as a hands-on Git fundamentals exercise (Boot.dev) — branches, merges, and PRs demonstrated live <sub>(updated 30 June 2026)</sub>
 <!-- RECENT-REPOS:END -->
 
 ### Skills & Technologies
