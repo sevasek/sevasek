@@ -32,8 +32,8 @@ Enhanced [Jethro PMM](https://github.com/tbar0970/jethro-pmm) (church management
 _Auto-updated daily by [`update-profile.yml`](.github/workflows/update-profile.yml) — pulls my most recently pushed public repos via the GitHub API._
 
 <!-- RECENT-REPOS:START -->
+- **[email-sidecar-mcp](https://github.com/sevasek/email-sidecar-mcp)** — _No description yet._ <sub>(updated 8 Sept 2026)</sub>
 - **[agent-team-infra](https://github.com/sevasek/agent-team-infra)** — Shared, tested infra for the sevasek Hermes agent fleet: knowledge-pull, cron-gate helpers, webhook receiver <sub>(updated 5 Sept 2026)</sub>
-- **[email-sidecar-mcp](https://github.com/sevasek/email-sidecar-mcp)** — _No description yet._ <sub>(updated 3 Sept 2026)</sub>
 - **[sermon-scraper](https://github.com/sevasek/sermon-scraper)** — Finds, downloads, and transcribes EV Church sermons by Bible passage using Playwright scraping and OpenAI Whisper <sub>(updated 27 Aug 2026)</sub>
 - **[mincraftRewards](https://github.com/sevasek/mincraftRewards)** — _No description yet._ <sub>(updated 22 Aug 2026)</sub>
 - **[asteroids](https://github.com/sevasek/asteroids)** — Feature-rich Asteroids clone in Pygame with procedural music, particle effects, dynamic difficulty, replays, and a leaderboard <sub>(updated 11 Aug 2026)</sub>
