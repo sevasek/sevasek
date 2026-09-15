@@ -32,7 +32,7 @@ Enhanced [Jethro PMM](https://github.com/tbar0970/jethro-pmm) (church management
 _Auto-updated daily by [`update-profile.yml`](.github/workflows/update-profile.yml) — pulls my most recently pushed public repos via the GitHub API._
 
 <!-- RECENT-REPOS:START -->
-- **[seo-geo-engine](https://github.com/sevasek/seo-geo-engine)** — A website-agnostic SEO/GEO audit-and-remediation engine: weighted rule standard, check registry, remediation tracking, and a deterministic static report/dashboard generator — driven by a per-site profile instead of being forked per site. <sub>(updated 11 Sept 2026)</sub>
+- **[seo-geo-engine](https://github.com/sevasek/seo-geo-engine)** — A website-agnostic SEO/GEO audit-and-remediation engine: weighted rule standard, check registry, remediation tracking, and a deterministic static report/dashboard generator — driven by a per-site profile instead of being forked per site. <sub>(updated 15 Sept 2026)</sub>
 - **[email-sidecar-mcp](https://github.com/sevasek/email-sidecar-mcp)** — _No description yet._ <sub>(updated 8 Sept 2026)</sub>
 - **[agent-team-infra](https://github.com/sevasek/agent-team-infra)** — Shared, tested infra for the sevasek Hermes agent fleet: knowledge-pull, cron-gate helpers, webhook receiver <sub>(updated 5 Sept 2026)</sub>
 - **[sermon-scraper](https://github.com/sevasek/sermon-scraper)** — Finds, downloads, and transcribes EV Church sermons by Bible passage using Playwright scraping and OpenAI Whisper <sub>(updated 27 Aug 2026)</sub>
