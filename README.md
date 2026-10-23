@@ -1,64 +1,53 @@
 # Hi, I'm Paul 👋
 
-**Automation Specialist | n8n Workflow Engineer | AI Agent Builder**
-Australian-based | Targeting Automation / IT Support
+**Systems and Automation Engineer · Founder of [sevasek](https://sevasek.com)**
+Sydney, Australia
 
-### About Me
-I build reliable, production-grade automations that solve real organisational problems. With a background in pastoral ministry and 5+ years of professional IT experience (including large-scale project liaison at University of Wollongong), I combine strong communication skills with hands-on n8n, LLM, and infrastructure expertise.
+### Why I do this
+I want every team, whatever its size, to run on systems that give people their time back for the work only people can do.
 
-Currently focusing on **no-code/low-code automation**, **AI-powered workflows**, and **secure self-hosted deployments** to deliver measurable time savings and error reduction.
+I'm grateful that I get to empower teams with IT systems: automations, data and AI that take the repetitive work off their plate and keep running when no one is watching.
 
-### Selected Work (2026)
+### What I do
+I'm a Systems and Automation Engineer with **Price & Speed**, and Founder of **sevasek**, an AI consultancy.
 
-**🛡️ [Safe Ministry Connections (SMX)](https://github.com/sevasek/smx)**
-Live n8n automation system for Sydney Anglican churches. Connects Elvanto, Adminosaur, and ClickSend for real-time Safe Ministry compliance checks, automated reporting, expiry forecasting with proactive alerts, and SMS notifications. Self-hosted 24/7 on a Hostinger VPS with Docker + Traefik.
+At Price & Speed I serve **Price & Speed Containers, Price & Speed Recycling, EI Media, PS Homes and Sydney Forklifts**. The role is half automation, half L2–3 systems administration. When the work goes well, the teams I work with can do more today than they could yesterday in marketing, sales, accounting and operations.
 
-**💰 [Babud](https://github.com/sevasek/babud)**
-Self-hosted personal finance automation for busy Australian families. Ingests transactions via the Up Bank API, applies AI-powered categorisation, and delivers envelope budgeting with zero manual entry — n8n + PostgreSQL + Metabase, fully documented with a database schema and sub-workflow catalogue.
+At sevasek I bring the same approach to small organisations, churches and non-profits.
 
-**📧 [Automatic Email Manager (AEM)](https://github.com/sevasek/aem)**
-Intelligent n8n-powered inbox automation that classifies emails, extracts actionable tasks, generates style-consistent drafts, and delivers daily digests. Now supports multi-model routing (OpenAI, Anthropic, Ollama) via a custom model router sub-workflow.
+My approach is the same everywhere: audit the workflow, fix it before automating it, prototype fast, then take what works into production with proper security, logging and dashboards.
 
-**📚 [OrgContext](https://github.com/sevasek/orgcontext)**
-An open-source, LLM-native dictionary of mission, vision, roles, and leadership frameworks — built to give AI agents shared organisational grounding instead of inconsistent interpretations of terms like "strategic alignment" or "servant leadership". Published to PyPI.
+### Selected work
+- **ERP invoicing automation (Odoo + n8n):** taken from prototype to production with per-customer opt-in, and field technicians' workflow left unchanged.
+- **Cloud BI platform (AWS + Metabase + PostgreSQL):** KPI dashboards fed by ERP and search-data pipelines. I replaced shared credentials with least-privilege roles and wrote a workflow standard requiring authentication on anything that spends money or writes production data.
+- **Sales lead pipeline:** automated discovery and qualification that handed a new BDM 200+ qualified leads on day one.
+- **Production AI sales agent (LangGraph + Amazon Bedrock + S3 Vectors RAG):** while verifying its knowledge base, I caught live data errors before customers saw them.
+- **Windows Server / AD:** fixed long-running IP ghosting on a production domain controller with a zone-wide DNS aging/scavenging audit, and deployed printers via Group Policy.
+- **[Safe Ministry Connections](https://github.com/sevasek/smx):** compliance automation that replaced 8–12 hours a week of manual checking for a 100+ volunteer organisation.
+- **[agent-crm](https://github.com/sevasek/agent-crm):** an open-source CRM built for an AI agent to operate over MCP, with a web app for the human in charge.
+- **[agent-team-infra](https://github.com/sevasek/agent-team-infra):** shared, tested infrastructure for a fleet of Dockerised AI agents that each run under hard limits and a human-approval gate.
 
-**🔑 [llmwallet](https://github.com/sevasek/llmwallet)**
-A CLI tool that checks account status and remaining credit across multiple LLM providers from a single command.
-
-**🔧 Open Source Contributions**
-Enhanced [Jethro PMM](https://github.com/tbar0970/jethro-pmm) (church management software) by adding exact Person ID matching to CSV imports, resolving bulk update failures caused by legacy duplicate profiles.
-
-### 🔄 Recently Active
-_Auto-updated daily by [`update-profile.yml`](.github/workflows/update-profile.yml) — pulls my most recently pushed public repos via the GitHub API._
+### 🔄 Recently active
+_Auto-updated daily by [`update-profile.yml`](.github/workflows/update-profile.yml)._
 
 <!-- RECENT-REPOS:START -->
-- **[agent-crm](https://github.com/sevasek/agent-crm)** — A small CRM built to be operated by an AI agent over MCP, with a web app for the human operator. MIT. <sub>(updated 17 Oct 2026)</sub>
+- **[agent-crm](https://github.com/sevasek/agent-crm)** — A small CRM built to be operated by an AI agent over MCP, with a web app for the human operator. MIT. <sub>(updated 23 Oct 2026)</sub>
 - **[seo-geo-engine](https://github.com/sevasek/seo-geo-engine)** — A website-agnostic SEO/GEO audit-and-remediation engine: weighted rule standard, check registry, remediation tracking, and a deterministic static report/dashboard generator — driven by a per-site profile instead of being forked per site. <sub>(updated 8 Oct 2026)</sub>
 - **[email-sidecar-mcp](https://github.com/sevasek/email-sidecar-mcp)** — _No description yet._ <sub>(updated 8 Sept 2026)</sub>
 - **[agent-team-infra](https://github.com/sevasek/agent-team-infra)** — Shared, tested infra for the sevasek Hermes agent fleet: knowledge-pull, cron-gate helpers, webhook receiver <sub>(updated 5 Sept 2026)</sub>
 - **[sermon-scraper](https://github.com/sevasek/sermon-scraper)** — Finds, downloads, and transcribes EV Church sermons by Bible passage using Playwright scraping and OpenAI Whisper <sub>(updated 27 Aug 2026)</sub>
 <!-- RECENT-REPOS:END -->
 
-### Skills & Technologies
-- **Core**: n8n (advanced workflows, sub-workflows, error handling), LLM agents & prompt engineering
-- **Infrastructure**: Docker, VPS (Ubuntu), Traefik, PostgreSQL, Playwright scraping
-- **Integrations**: Up Bank API, ClickSend SMS API, Elvanto API, Adminosaur, Metabase dashboards
-- **Languages**: TypeScript/Node.js, Python (packaging & PyPI releases), basic PHP/MySQL
-- **Transferable**: Stakeholder communication, process documentation, risk mitigation, project liaison
+### Toolkit
+- **Automation & business systems:** n8n, Odoo, REST APIs and webhooks, process mapping, specification writing
+- **Data:** PostgreSQL, SQL, Metabase, ingestion pipelines
+- **Cloud & infrastructure:** AWS (CloudFormation, EC2, Lambda, IAM, Bedrock), Docker, Traefik, nginx, GitHub Actions, Linux
+- **Microsoft:** Windows Server, Active Directory, Group Policy, PowerShell, Microsoft 365, SharePoint
+- **AI:** Claude Code, Claude/OpenAI APIs, Ollama, RAG, LLM output verification, AI policy and governance
+- **Languages:** Python, SQL, Bash, PowerShell, JavaScript
 
-### Currently Learning / Building
-- Self-improving CI/CD and autonomous agent loops
-- Advanced AI agent patterns (tool calling, memory, RAG)
-- Multi-provider LLM routing and cost/credit observability
+### Certifications
+AWS Certified Cloud Practitioner · Microsoft Certified Professional · ITIL Foundation (v5) and AWS Solutions Architect – Associate (in progress)
 
-### 🚀 Roadmap & Future Releases
-
-- [x] **Self-updating profile feed** — a scheduled GitHub Action (`update-profile.yml`) pulls my most recently pushed repos via the GitHub API and regenerates the "Recently Active" section daily, so this page never goes stale again.
-- [ ] **Live credibility widgets** — embed GitHub stats/streak cards so visitors get a 30-second read on activity and consistency without leaving the page.
-- [ ] **Impact-first project cards** — extend each "Selected Work" entry with a one-line measurable outcome (e.g. hours saved, error rate reduced) instead of just a feature description.
-
-### Let's Connect
-- Available for Automation Specialist, Workflow Engineer, or IT Support roles
-- Always happy to chat about n8n, church tech, or safe ministry automation
-
-Last updated: July 2026
+### Let's connect
+🌐 [sevasek.com](https://sevasek.com) · ✉️ [sevasek@gmail.com](mailto:sevasek@gmail.com)
