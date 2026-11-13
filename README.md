@@ -32,8 +32,8 @@ Enhanced [Jethro PMM](https://github.com/tbar0970/jethro-pmm) (church management
 _Auto-updated daily by [`update-profile.yml`](.github/workflows/update-profile.yml) — pulls my most recently pushed public repos via the GitHub API._
 
 <!-- RECENT-REPOS:START -->
+- **[agent-crm](https://github.com/sevasek/agent-crm)** — A small CRM built to be operated by an AI agent over MCP, with a web app for the human operator. MIT. <sub>(updated 13 Nov 2026)</sub>
 - **[sevasek-classic-search](https://github.com/sevasek/sevasek-classic-search)** — Chrome extension that removes AI Overview from Google Search results <sub>(updated 9 Nov 2026)</sub>
-- **[agent-crm](https://github.com/sevasek/agent-crm)** — A small CRM built to be operated by an AI agent over MCP, with a web app for the human operator. MIT. <sub>(updated 6 Nov 2026)</sub>
 - **[email-sidecar-mcp](https://github.com/sevasek/email-sidecar-mcp)** — _No description yet._ <sub>(updated 8 Sept 2026)</sub>
 - **[agent-team-infra](https://github.com/sevasek/agent-team-infra)** — Shared, tested infra for the sevasek Hermes agent fleet: knowledge-pull, cron-gate helpers, webhook receiver <sub>(updated 5 Sept 2026)</sub>
 - **[sermon-scraper](https://github.com/sevasek/sermon-scraper)** — Finds, downloads, and transcribes EV Church sermons by Bible passage using Playwright scraping and OpenAI Whisper <sub>(updated 27 Aug 2026)</sub>
